@@ -155,9 +155,7 @@ int main(){
 				printf("%c",SM[i]);
 				Beep(800,100);			
 			}
-			getch();
 		}
-		getchar();
 		system("CLS");
 		if(getch()=='|')
 			c=1;
